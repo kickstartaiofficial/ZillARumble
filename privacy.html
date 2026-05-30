@@ -5,23 +5,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Zilla Rumble Privacy Policy</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
-    main { max-width: 860px; margin: 0 auto; background: #fff; min-height: 100vh; padding: 32px 20px 56px; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.55;
+      color: #111827;
+      background: #f9fafb;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+      background: #ffffff;
+      min-height: 100vh;
+    }
+    h1, h2 { color: #111827; }
     a { color: #1d4ed8; }
+    .muted { color: #4b5563; }
+    ul { padding-left: 1.25rem; }
   </style>
 </head>
 <body>
   <main>
     <h1>Privacy Policy for Zilla Rumble</h1>
-    <p>Last updated: April 29, 2026</p>
-    <p>Zilla Rumble is an entertainment AR game. We only request data needed to run core features.</p>
-    <h2>Permissions</h2>
+    <p class="muted">Last updated: May 30, 2026</p>
+
+    <p>
+      Zilla Rumble ("Zilla Rumble", "we", "our") respects your privacy.
+      This policy explains what information the app may access, how it is used, and your choices.
+    </p>
+
+    <h2>Summary</h2>
     <ul>
-      <li>Camera: required for AR gameplay and body movement tracking.</li>
-      <li>Photo Library (Add Only): used only if you choose to save gameplay recordings.</li>
+      <li>Zilla Rumble is an entertainment game. It is not a medical or clinical app.</li>
+      <li>Gameplay data and activity history stay on your device unless you choose to save a recording to Photos.</li>
+      <li>We do not sell personal data. We do not transmit face tracking data to our servers or third parties.</li>
+      <li>HealthKit is not used by this app.</li>
     </ul>
+
+    <h2>Data We Access</h2>
+
+    <p><strong>Camera (rear)</strong>: Required for AR gameplay and full-body movement tracking during matches. The app uses Apple ARKit body tracking to mirror your punches, kicks, blocks, and dodges in the game.</p>
+
+    <p><strong>Camera (front / TrueDepth)</strong>: Used only when you open the optional <strong>"Try face"</strong> feature from a character's detail screen. See <strong>Face Data (TrueDepth / AR Face Tracking)</strong> below.</p>
+
+    <p><strong>Photo Library (Add Only)</strong>: Used only when you explicitly choose to save a screen recording from placement or gameplay screens. The app cannot read your existing photos.</p>
+
+    <p><strong>On-device activity history</strong>: The app may store minutes played and body-tracked strike counts locally on your iPhone to show an in-app activity timeline. This data is not sent to Apple Health and is not uploaded to our servers.</p>
+
+    <p><strong>HealthKit</strong>: Not used. Zilla Rumble does not read from or write to Apple Health.</p>
+
+    <h2>Face Data (TrueDepth / AR Face Tracking)</h2>
+
+    <p><strong>What we collect:</strong> When you use the optional "Try face" feature, the app uses Apple's ARKit face tracking (<code>ARFaceTrackingConfiguration</code>) on supported iPhones with a TrueDepth camera (iPhone X or newer). During an active "Try face" session, the app receives real-time head pose data from ARKit (3D position and orientation via <code>ARFaceAnchor</code>) so a character's 3D head model can follow your head movements on screen.</p>
+
+    <p>The app does <strong>not</strong> collect or store:</p>
+    <ul>
+      <li>facial recognition identifiers or face prints</li>
+      <li>blend-shape or face-mesh data for persistence</li>
+      <li>raw TrueDepth sensor data exported from the device</li>
+    </ul>
+
+    <p><strong>How we use it:</strong> Solely for on-device, real-time visual rendering of an optional AR face filter ("Try face") for entertainment and content preview. It is not used for authentication, user identification, advertising, analytics, or gameplay input. Core match gameplay uses rear-camera body tracking, not TrueDepth.</p>
+
+    <p><strong>Storage:</strong> Face tracking data is processed locally on your device, in memory, while "Try face" is active. Raw face tracking data is discarded when you leave "Try face" or close the app. We do not store face tracking data on our servers.</p>
+
+    <p><strong>Sharing with third parties:</strong> We do not share, sell, or transmit face tracking data to third parties.</p>
+
+    <p><strong>Recordings:</strong> If you tap Record on the "Try face" screen (or other placement screens), the app may save a screen recording to your Photo Library with your permission. That video remains on your device under your control until you delete it. We do not upload recordings automatically.</p>
+
+    <p><strong>Retention:</strong> In-memory face tracking data exists only during an active "Try face" session. Any recording you save is kept in your Photo Library until you delete it.</p>
+
+    <p><strong>Device requirement:</strong> "Try face" requires a TrueDepth-capable iPhone (iPhone X or newer). It is not available on iPad.</p>
+
+    <h2>How Data Is Used</h2>
+    <ul>
+      <li>To provide AR gameplay and optional face-filter preview features.</li>
+      <li>To save user-requested screen recordings to the Photo Library.</li>
+      <li>To display on-device activity history (minutes played and strike counts).</li>
+      <li>To remember in-app settings and preferences on your device.</li>
+    </ul>
+
+    <h2>Data We Do Not Collect</h2>
+    <ul>
+      <li>No account sign-in is required to play.</li>
+      <li>We do not collect your name, email, or contact information through the app.</li>
+      <li>We do not use face data for biometric identification.</li>
+      <li>We do not use HealthKit.</li>
+    </ul>
+
+    <h2>In-App Purchases</h2>
+    <p>
+      Character pack purchases are processed by Apple. We do not receive your payment card details.
+      Purchase history is managed by your Apple ID according to Apple's policies.
+    </p>
+
+    <h2>Medical Disclaimer</h2>
+    <p>
+      Zilla Rumble is an entertainment and active gameplay experience. It is not intended for medical diagnosis,
+      treatment, or clinical decision-making.
+    </p>
+
+    <h2>Your Choices</h2>
+    <p>
+      You can deny or revoke permissions at any time in iOS Settings under Privacy &amp; Security.
+      Camera access is required for AR body tracking. "Try face" requires the front camera on a supported iPhone.
+      Photo Library access is optional and only needed if you choose to save recordings.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+      Zilla Rumble is not directed at children under 13. We do not knowingly collect personal information from children.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this policy from time to time. The "Last updated" date at the top of this page will reflect the latest revision.
+    </p>
+
     <h2>Contact</h2>
-    <p>Support requests: <a href="https://github.com/kickstartaiofficial/ZillARumble/issues">GitHub Issues</a></p>
+    <p>
+      For support or privacy questions, open an issue at
+      <a href="https://github.com/kickstartaiofficial/ZillARumble/issues">github.com/kickstartaiofficial/ZillARumble/issues</a>.
+    </p>
+
     <p><a href="./index.html">Back to Support</a></p>
   </main>
 </body>
